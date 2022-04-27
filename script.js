@@ -19,10 +19,10 @@ function calcul(){
     } else if (imc <= 30){
         document.getElementById("resultat").innerHTML = "<span class='surpoids'>Vous êtes en surpoids" + "<br>Votre imc est de: " + imc.toFixed(2)+ "</span>";
     } else if (imc <= 35){
-        document.getElementById("resultat").innerHTML = "<span class='obese'>Vous êtes un gros lard" + "<br>Votre imc est de: " + imc.toFixed(2)+ "</span>";
+        document.getElementById("resultat").innerHTML = "<span class='obese'>Vous êtes obèse" + "<br>Votre imc est de: " + imc.toFixed(2)+ "</span>";
     }else if (imc > 35){
             document.getElementById("resultat").innerHTML = "<span class='mort'>Vous êtes bientôt mort" + "<br>Votre imc est de: " + imc.toFixed(2)+ "</span>";
     }
 
-    console.log(imc);
+
 }
